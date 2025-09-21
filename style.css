@@ -1,0 +1,36 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fb;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #2563eb;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+main{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+section, aside{
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+button{
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
