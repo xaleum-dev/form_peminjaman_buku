@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Perpustakaan — Peminjaman Buku</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Website Peminjaman Buku</h1>
+  </header>
+
+  <main>
+    <section id="catalog">
+      <h2>Katalog Buku</h2>
+      <ul>
+        <li>Harry Potter & the Philosopher's Stone</li>
+        <li>Lord of the Rings: Fellowship</li>
+        <li>JavaScript: The Good Parts</li>
+      </ul>
+    </section>
+
+    <aside id="form">
+      <h2>Form Peminjaman</h2>
+      <form id="borrowForm">
+        <label>Nama Lengkap:</label>
+        <input type="text" name="nama">
+        <label>Email:</label>
+        <input type="email" name="email">
+        <label>Pilih Buku:</label>
+        <select name="buku">
+          <option>Harry Potter & the Philosopher's Stone</option>
+          <option>Lord of the Rings: Fellowship</option>
+          <option>JavaScript: The Good Parts</option>
+        </select>
+        <button type="submit">Kirim</button>
+      </form>
+    </aside>
+  </main>
+</body>
+</html>
